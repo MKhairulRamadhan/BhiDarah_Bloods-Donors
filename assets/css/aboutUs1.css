@@ -1,0 +1,185 @@
+/*===========================
+  --- Featured section ----
+=========================== */
+
+section.featured {
+  padding: 50px 0 60px;
+  background: #fafafa;
+  color: #333333;
+}
+
+section.featured h2.slogan {
+  color: #333333;
+  font-size: 48px;
+  font-weight: 900;
+}
+  
+ /* inner heading */
+section.featured.inner {
+  background: #eee;
+  padding: 150px 0 50px;
+}
+
+.align-center{
+  text-align: center;
+}
+
+.mar-bot40{
+  margin-bottom: 40px;
+}
+.mar-top30{
+  margin-top: 30px;
+}
+
+/*==========================
+About
+=========================== */
+
+.member-photo {
+  box-sizing:border-box;
+  -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+      border-radius:50%;  
+  margin: 0 0 20px 0;
+}
+.member-photo img {
+  -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+      border-radius:50%;  
+}
+
+.team-detail h4 {
+  font-weight: 700;
+}
+
+.section-header {
+  text-align: center;
+}
+.section-header h2.section-heading {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+
+
+/*==================
+ TESTIMONIAL SECTION
+====================*/
+#mu-testimonial {
+  background-attachment: fixed;
+  background-image: url("../../image/testmonial.jpg");
+  background-position: center center;
+  background-size: cover;
+  display: inline;
+  float: left;
+  padding: 100px 0;
+  position: relative;
+  width: 100%;
+  z-index: 10;
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+#mu-testimonial:after {
+  background-color: rgba(0, 0, 0, 0.8);
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.testimonial-center{
+	text-align: center;
+	color: #fafafa;
+}
+
+.testimonial-center div h2{
+	color: #fafafa;
+}
+
+#mu-testimonial .mu-testimonial-area {
+  position: relative;
+  width: 100%;
+  z-index: 99;
+}
+#mu-testimonial .mu-testimonial-area .mu-testimonial-content {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+#mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item {
+  display: inline;
+  float: left;
+  width: 100%;
+  outline: none;
+}
+#mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-quote {
+  background-color: #333;
+  border-radius: 4px;
+  display: inline;
+  float: left;
+  padding: 60px 30px;
+  width: 100%;
+}
+#mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-quote blockquote {
+  border: none;
+  text-align: center;
+  margin-bottom: 0;
+  position: relative;
+}
+#mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-quote blockquote:before {
+  content: '\f10d';
+  color: #fff;
+  font-family: fontAwesome;
+  font-style: italic;
+  left: 2%;
+  position: absolute;
+  top: 0;
+}
+#mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-quote blockquote p {
+  color: #fff;
+  font-size: 16px;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+#mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-img {
+  display: inline;
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+#mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-img img {
+  background-color: #555;
+  border: 1px solid #888;
+  border-radius: 50%;
+  margin: -50px auto 5px;
+  padding: 0;
+  width: 120px;
+}
+#mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-info {
+  display: inline;
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+#mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-info h4 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+#mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-info span {
+  font-size: 14px;
+  letter-spacing: 0.3px;
+}
+#mu-testimonial .mu-testimonial-area .mu-testimonial-content .slick-dots li {
+  background-color: #fff;
+  height: 8px;
+  width: 20px;
+}
+#mu-testimonial .mu-testimonial-area .mu-testimonial-content .slick-dots li button {
+  display: none;
+}
